@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MovieAPIBackend</name>
+    </assembly>
+    <members>
+        <member name="M:MovieAPIBackend.Controllers.TMDBController.GetTopRatedMovies(System.String,System.Nullable{System.Int32},System.String)">
+            <summary>
+            Gets a list of the currently top rated movies
+            </summary>
+            <response code="204">Invalid API key</response>
+        </member>
+        <member name="M:MovieAPIBackend.Controllers.TMDBController.GetUpcommingMovies(System.String,System.Nullable{System.Int32},System.String)">
+            <summary>
+            Gets a list of upcoming movies
+            </summary>
+            <response code="204">Invalid API key</response>
+        </member>
+        <member name="M:MovieAPIBackend.Controllers.TMDBController.GetNowPlayingMovies(System.String,System.Nullable{System.Int32},System.String)">
+            <summary>
+            Gets a list of movies played at theaters right now
+            </summary>
+            <response code="204">Invalid API key</response>
+        </member>
+    </members>
+</doc>
