@@ -6,3 +6,5 @@ Controllern utnyttjar cachen via dependency injection (DI). Varje anrop mot TMDB
 Eftersom controllers instansieras vid behov så injicerar vi även Configuration (appsettings.json) så att vi kan komma åt t.ex. API-key mot TMDB, detta gör att vi kan ändra nyckel under drift utan att behöva ta ned tjänsten.
 
 För att testa API:et, kör projektet i debugläge och gå mot "/swagger/index.html" för att komma åt Swagger UI.
+
+Den kan även kommas åt via https://movieapibackend20220116145642.azurewebsites.net/swagger/index.html men notera att du då inte kan välja att byta API-nyckel
